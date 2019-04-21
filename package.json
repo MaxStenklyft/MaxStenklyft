@@ -1,0 +1,22 @@
+{
+  "name": "maxstenklyft.com",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxStenklyft/MaxStenklyft.com.git"
+  },
+  "author": "Max",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/MaxStenklyft/MaxStenklyft.com/issues"
+  },
+  "homepage": "https://github.com/MaxStenklyft/MaxStenklyft.com#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
