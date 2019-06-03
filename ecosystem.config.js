@@ -9,7 +9,7 @@ module.exports = {
       host: 'ec2-184-72-68-207.compute-1.amazonaws.com',
       key: '~/.ssh/AWS.pem',
       ref: 'origin/master',
-      repo: 'git@github.com:MaxStenklyft/MaxStenklyft.com',
+      repo: 'https://github.com/MaxStenklyft/MaxStenklyft.com',
       path: '/home/ec2-user/tutorial-2',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
