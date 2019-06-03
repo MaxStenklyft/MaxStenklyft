@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ec2-user',
-      host: 'http://ec2-184-72-68-207.compute-1.amazonaws.com',
+      host: 'ec2-184-72-68-207.compute-1.amazonaws.com',
       key: '~/.ssh/AWS.pem',
       ref: 'origin/master',
       repo: 'git@github.com:MaxStenklyft/MaxStenklyft.com',
