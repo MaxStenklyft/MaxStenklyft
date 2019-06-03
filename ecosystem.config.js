@@ -5,12 +5,12 @@ module.exports = {
   }],
   deploy: {
     production: {
-      user: 'ubuntu',
-      host: 'ec2-52-209-166-225.eu-west-1.compute.amazonaws.com',
-      key: '~/.ssh/tutorial-2.pem',
+      user: 'ec2-user',
+      host: 'http://ec2-184-72-68-207.compute-1.amazonaws.com',
+      key: '~/.ssh/AWS.pem',
       ref: 'origin/master',
-      repo: 'git@github.com:roberttod/tutorial-pt-2.git',
-      path: '/home/ubuntu/tutorial-2',
+      repo: 'git@github.com:MaxStenklyft/MaxStenklyft.com',
+      path: '/home/ec2/tutorial-2',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
