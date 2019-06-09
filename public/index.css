@@ -3,3 +3,18 @@ body {
     color: whitesmoke;
     background: darkcyan;
 }
+
+.social-media-icon {
+  mask: url(linkedin-logo.svg);
+    display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: black;
+  mask-size: cover;
+}
+
+a {
+    color: whitesmoke;
+}
+
+
