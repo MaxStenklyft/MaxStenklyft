@@ -3,16 +3,31 @@
     <head>
         <title>MaxStenklyft</title>
         <link rel="stylesheet" type="text/css" href="index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     </head>
     <body>
         <div>
             <h1 >Max Stenklyft's Website</h1>
             <a href="https://www.linkedin.com/in/max-stenklyft-a46176127/"  target="_blank">
-                <img style="width: 10%" src="linkedin-logo.svg">
+                <img class="social-media-logo" src="linkedin-logo.svg">
             </a>
         </div>
         <div hidden>
             <p><a href="credits.html"><u>credits</u></a></p>
         </div>
+        <div class="loader-wrapper">
+            <div class='loader'>
+                <img src="Ripple-1.9s-195px.svg">
+            </div>
+        </div>
+        
+        <script>
+//          TODO Make wait invariant of pageload
+            $(window).on("load", function(){
+                setTimeout(function(){
+                    $(".loader-wrapper").fadeOut(100)  
+                }, 1500);       
+            });
+        </script>
     </body>
 </html>
