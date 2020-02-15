@@ -1,2 +1,2 @@
 # MaxStenklyft.com
-Personal Website For Education
+Sideproject for learning node and AWS EC2
